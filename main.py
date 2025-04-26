@@ -166,7 +166,7 @@ import datetime
 
 
 
-from zyntax import CPMZyntax
+from cpmewan1999 import CPMEwan1999
 
 __CHANNEL_USERNAME__ = "ZYNTAXMODS"
 __GROUP_USERNAME__   = "ZYNTAXMODS"
@@ -287,7 +287,7 @@ if __name__ == "__main__":
         acc_password = prompt_valid_value("[?] ACCOUNT PASSWORD", "Password", password=False)
         acc_access_key = prompt_valid_value("[?] ACCESS KEY", "Access Key", password=False)
         console.print("[%] TRYING TO LOGIN: ", end=None)
-        cpm = CPMZyntax(acc_access_key)
+        cpm = CPMEwan1999(acc_access_key)
         login_response = cpm.login(acc_email, acc_password)
         if login_response != 0:
             if login_response == 100:
