@@ -168,8 +168,8 @@ import datetime
 
 from cpmewan1999 import CPMEwan1999
 
-__CHANNEL_USERNAME__ = "ZYNTAXMODS"
-__GROUP_USERNAME__   = "ZYNTAXMODS"
+__CHANNEL_USERNAME__ = "𝐁𝐑𝐈𝐗 𝐓𝐄𝐑𝐌𝐔𝐗 𝐓𝐎𝐎𝐋"
+__GROUP_USERNAME__   = "𝐁𝐑𝐈𝐗 𝐓𝐄𝐑𝐌𝐔𝐗 𝐓𝐎𝐎𝐋"
 
 def signal_handler(sig, frame):
     print("\n Bye Bye...")
